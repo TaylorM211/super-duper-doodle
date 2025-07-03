@@ -1,0 +1,636 @@
+Timestamp: 2025-07-03T20:44:58.550Z
+Topic: opt/1/alert/icr-offline
+Payload: {"active": false, "evid": "FIq9MeY6r3lbgDuwRerdg80G"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.551Z
+Topic: opt/1/alert/pap-disabled
+Payload: {"active": false, "evid": "FIq9MfY6r3lbgDuwRerdg82V"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.552Z
+Topic: icr/1/status
+Payload: {"online": true}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.552Z
+Topic: icr/1/keypad-status
+Payload: {"configFound": true}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.552Z
+Topic: icr/1/sale-type
+Payload: {"saleType": 17}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.552Z
+Topic: icr/1/reader-capabilities
+Payload: {"EMVEnabled": true, "contactlessEnabled": false, "encryptionEnabled": false, "metadata": {"ev_id": "FIq9KfG8J6PlyS5lTM6wp2-Y"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.552Z
+Topic: icr/1/payment-keys-status
+Payload: {"metadata": {"ev_id": "FIq9HvG8J6PlyS5lTM6wp21p"}, "status": "UNAVAILABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.553Z
+Topic: icr/1/version
+Payload: {"version": "E"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.553Z
+Topic: icr/1/waiting-for-key-change
+Payload: {"metadata": {"ev_id": "FIq9JjG8J6PlyS5lTM6wp2-d"}, "requireChange": false}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.553Z
+Topic: icr/1/msr-card-status
+Payload: {"cardStatus": 0, "metadata": {"ev_id": "FJ-c4UG8J6PlyS5lTM6wp20H"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.553Z
+Topic: icr/1/emv-initialization-status
+Payload: {"metadata": {"ev_id": "FIq9McG8J6PlyS5lTM6wp2-Y"}, "status": "ERROR"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.554Z
+Topic: config/pump/1/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/1/current-authorization-mode
+Payload: {"mode": "NO_OVERRIDE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/2/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/3/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/4/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/5/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/6/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.555Z
+Topic: config/pump/7/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.556Z
+Topic: config/options
+Payload: {"configOptions": [{"name": "PRICE_CHANGE_PROMPT_TIME", "value": "20"}, {"name": "FUEL_UNITS", "value": "Gallons_US"}, {"name": "PRICE_SIGN_WARNING", "value": "Disabled"}, {"name": "PRICE_CHANGE_AUTO_REPORT_PRINT", "value": "Disabled"}, {"name": "PREPAY_GRADE_SELECT_TYPE", "value": "One_Touch"}, {"name": "PRICE_CHANGE_POS_NOTIFICATION", "value": "Enabled"}, {"name": "PRICE_CHANGE_POS_CONFIRMATION", "value": "Enabled"}, {"name": "PRICE_CHANGE_FORECOURT_DELAY", "value": "0"}, {"name": "PRICE_CHANGE_FORCE_ACCEPT_SEC", "value": "0"}, {"name": "MAX_PRICE_CHANGE_TOLERANCE_PERCENT", "value": "20"}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.556Z
+Topic: config/pump/8/authorization-modes
+Payload: {"AuthModes": [{"dayOfWeek": 0, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 1, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 2, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 3, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 4, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 5, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}, {"dayOfWeek": 6, "endHour": 23, "endMinute": 59, "modes": ["ICR", "Prepay", "Postpay", "CallAutoAuth", "CallPostpay"], "startHour": 0, "startMinute": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.556Z
+Topic: config/pump-info
+Payload: {"pumpConfig": [{"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 1}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 2}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 3}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 4}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 5}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 6}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 7}, {"hoseRecords": [{"hose": 0, "productID": 70000820}, {"hose": 1, "productID": 70000817}, {"hose": 2, "productID": 70000818}, {"hose": 3, "productID": 70000820}], "integrated": true, "pumpNo": 8}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.556Z
+Topic: config/carwash-info
+Payload: {"carwashConfig": []}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.556Z
+Topic: config/precision-info
+Payload: {"precisionInfo": [{"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 1, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 2, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 3, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 4, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 5, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 6, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 7, "volumePrecision": 3}, {"moneyPrecision": 2, "ppuPrecision": 3, "pumpNumber": 8, "volumePrecision": 3}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.557Z
+Topic: config/tank-info
+Payload: {"tankConfig": [{"gradeName": "EFS Basic", "gradeNumber": 70000127, "integrated": true, "tankNumber": 1}, {"gradeName": "EFS Regular", "gradeNumber": 70000124, "integrated": true, "tankNumber": 2}, {"gradeName": "EFS Premium", "gradeNumber": 70000125, "integrated": true, "tankNumber": 3}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.557Z
+Topic: config/product-info
+Payload: {"productConfig": [{"catalogItemCode": "00000000060030", "externalID": "00000000060030", "primaryGradeNumber": 70000124, "productID": 70000817, "productName": "EFS Regular"}, {"catalogItemCode": "00000000060020", "externalID": "00000000060020", "primaryGradeNumber": 70000125, "productID": 70000818, "productName": "EFS Premium"}, {"catalogItemCode": "11020304111301", "externalID": "110203041113", "primaryGradeNumber": 70000126, "productID": 70000819, "productName": "EFS Diesel"}, {"catalogItemCode": "00000000060040", "externalID": "00000000060040", "primaryGradeNumber": 70000127, "productID": 70000820, "productName": "EFS Basic"}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.557Z
+Topic: pump/1/events/minimum-ppu
+Payload: {"value": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.557Z
+Topic: pump/1/events/reservation-status
+Payload: {"clientId": "", "reason": "NONE", "reserved": false}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.558Z
+Topic: pump/1/events/service-mode
+Payload: {"value": 1}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.558Z
+Topic: pump/1/events/pump-status
+Payload: {"reason": "UNSPECIFIED", "state": "IDLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.558Z
+Topic: pump/1/events/firmware-version
+Payload: {"version": "Ver 7001 Release Date 050199"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.558Z
+Topic: pump/1/events/pump-mode
+Payload: {"metadata": {"ev_id": "FJ-c4LG8J6PlyS5lTM6wp2-5"}, "mode": "OPEN"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.558Z
+Topic: pump/1/events/pump-totals
+Payload: {"totals": [{"hose": 0, "money": 860, "tier": 0, "volume": 1720}, {"hose": 0, "money": 0, "tier": 1, "volume": 0}, {"hose": 0, "money": 0, "tier": 2, "volume": 0}, {"hose": 0, "money": 0, "tier": 3, "volume": 0}, {"hose": 0, "money": 0, "tier": 4, "volume": 0}, {"hose": 1, "money": 1090, "tier": 0, "volume": 3630}, {"hose": 1, "money": 0, "tier": 1, "volume": 0}, {"hose": 1, "money": 0, "tier": 2, "volume": 0}, {"hose": 1, "money": 0, "tier": 3, "volume": 0}, {"hose": 1, "money": 0, "tier": 4, "volume": 0}, {"hose": 2, "money": 0, "tier": 0, "volume": 0}, {"hose": 2, "money": 0, "tier": 1, "volume": 0}, {"hose": 2, "money": 0, "tier": 2, "volume": 0}, {"hose": 2, "money": 0, "tier": 3, "volume": 0}, {"hose": 2, "money": 0, "tier": 4, "volume": 0}, {"hose": 3, "money": 0, "tier": 0, "volume": 0}, {"hose": 3, "money": 0, "tier": 1, "volume": 0}, {"hose": 3, "money": 0, "tier": 2, "volume": 0}, {"hose": 3, "money": 0, "tier": 3, "volume": 0}, {"hose": 3, "money": 0, "tier": 4, "volume": 0}, {"hose": 4, "money": 0, "tier": 0, "volume": 0}, {"hose": 4, "money": 0, "tier": 1, "volume": 0}, {"hose": 4, "money": 0, "tier": 2, "volume": 0}, {"hose": 4, "money": 0, "tier": 3, "volume": 0}, {"hose": 4, "money": 0, "tier": 4, "volume": 0}, {"hose": 5, "money": 0, "tier": 0, "volume": 0}, {"hose": 5, "money": 0, "tier": 1, "volume": 0}, {"hose": 5, "money": 0, "tier": 2, "volume": 0}, {"hose": 5, "money": 0, "tier": 3, "volume": 0}, {"hose": 5, "money": 0, "tier": 4, "volume": 0}, {"hose": 6, "money": 0, "tier": 0, "volume": 0}, {"hose": 6, "money": 0, "tier": 1, "volume": 0}, {"hose": 6, "money": 0, "tier": 2, "volume": 0}, {"hose": 6, "money": 0, "tier": 3, "volume": 0}, {"hose": 6, "money": 0, "tier": 4, "volume": 0}, {"hose": 7, "money": 0, "tier": 0, "volume": 0}, {"hose": 7, "money": 0, "tier": 1, "volume": 0}, {"hose": 7, "money": 0, "tier": 2, "volume": 0}, {"hose": 7, "money": 0, "tier": 3, "volume": 0}, {"hose": 7, "money": 0, "tier": 4, "volume": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.559Z
+Topic: pump/1/events/feedstock-totals
+Payload: {"feedstockVolumeHigh": 0, "feedstockVolumeLow": 0, "supportedFeedstocks": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.559Z
+Topic: pump/1/events/supported-tier-totals
+Payload: {"supportedMoneyTiers": [3, 0, 0, 0, 0], "supportedVolumeTiers": [3, 0, 0, 0, 0]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.559Z
+Topic: pump/1/events/current-sale
+Payload: {"sale": {"authorizationAmount": 0, "authorizedTime": "", "authorizingCashier": "", "authorizingShift": 1, "authorizingStation": "", "businessDate": "", "cardDefinitionId": 0, "cardNumber": "", "creditTransactionId": 0, "currentHose": 0, "currentTier": 0, "discountId": 0, "discountReason": 0, "fuelSaleUid": "", "hoseLimits": {"authorizationAmount": [0, 0, 0, 0, 0, 0, 0, 0], "maxVolume": [0, 0, 0, 0, 0, 0, 0, 0], "moneyLimitHoseMap": 0, "quantityLimitHoseMap": 0}, "hoseMap": 0, "loyaltyTransactionID": 0, "loyaltyTransactionId2": 0, "maxVolume": 0, "merchTaxTotal": 0, "merchTotal": 0, "money": 0, "originalPrice": 0, "posTransactionId": 0, "posTransactionUid": "", "price": 0, "pumpTransactionId": -1, "saleStarted": false, "serviceMode": 1, "tenderAmount": 0, "tenderType": 0, "tierMap": 0, "transactionType": 4, "transactionTypeModifiers": 0, "volume": 0}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.560Z
+Topic: pump/1/events/sale-lock-status/16777369
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HpG8J6PlyS5lTM6wp222"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.559Z
+Topic: pump/1/events/sale-lock-status/16777288
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HpG8J6PlyS5lTM6wp21x"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.560Z
+Topic: pump/1/events/sale-lock-status/16777298
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HpG8J6PlyS5lTM6wp22-"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.560Z
+Topic: pump/1/events/sale-lock-status/16777379
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HpG8J6PlyS5lTM6wp225"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.560Z
+Topic: pump/1/events/sale-lock-status/16783057
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HqG8J6PlyS5lTM6wp22z"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.560Z
+Topic: pump/1/events/sale-lock-status/16783085
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HqG8J6PlyS5lTM6wp231"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.561Z
+Topic: pump/1/events/sale-lock-status/16783772
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HqG8J6PlyS5lTM6wp237"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.561Z
+Topic: pump/1/state/highest-possible-prices
+Payload: {"metadata": {"ev_id": "FIqDi6G8J6PlyS5lTM6wp213"}, "prices": {"70000817/SELF_SERVICE_CASH": {"batchId": "1234", "precision": 3, "price": 2999, "priceChangeId": "ITT-70861580629-upcA-0_6549"}, "70000817/SELF_SERVICE_CREDIT": {"batchId": "1234", "precision": 3, "price": 2999, "priceChangeId": "ITT-70861580629-upcA-0_6549"}, "70000818/SELF_SERVICE_CASH": {"batchId": "1234", "precision": 3, "price": 3999, "priceChangeId": "ITT-70861580629-upcA-0_6549"}, "70000818/SELF_SERVICE_CREDIT": {"batchId": "1234", "precision": 3, "price": 3999, "priceChangeId": "ITT-70861580629-upcA-0_6549"}, "70000820/SELF_SERVICE_CASH": {"batchId": "1234", "precision": 3, "price": 4999, "priceChangeId": "ITT-70861580629-upcA-0_6549"}, "70000820/SELF_SERVICE_CREDIT": {"batchId": "1234", "precision": 3, "price": 4999, "priceChangeId": "ITT-70861580629-upcA-0_6549"}}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.561Z
+Topic: pump/1/events/sale-lock-status/16783769
+Payload: {"client": "", "locked": false, "metadata": {"ev_id": "FIq9HqG8J6PlyS5lTM6wp234"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.561Z
+Topic: pump/1/state/prices
+Payload: {"priceStatus": [1, 1, 1, 1, 1, 1, 3, 3, 0, 0, 0, 0], "prices": [{"hose": 0, "price": 4999, "tier": 0}, {"hose": 0, "price": 4999, "tier": 1}, {"hose": 1, "price": 2999, "tier": 0}, {"hose": 1, "price": 2999, "tier": 1}, {"hose": 2, "price": 3999, "tier": 0}, {"hose": 2, "price": 3999, "tier": 1}, {"hose": 3, "price": 4999, "tier": 0}, {"hose": 3, "price": 4999, "tier": 1}, {"hose": 4, "price": 0, "tier": 0}, {"hose": 4, "price": 0, "tier": 1}, {"hose": 5, "price": 0, "tier": 0}, {"hose": 5, "price": 0, "tier": 1}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.562Z
+Topic: pump/1/alert/invalid-grade
+Payload: {"active": false, "evid": "FJ-c2uY6r3lbgDuwRerdg81H"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.562Z
+Topic: pump/state/faults
+Payload: {"cause": "FIq92Il7gIeKJVtbewK-AW00", "reason": "70000820/", "responseCode": 3}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.562Z
+Topic: fc/alert/payment-processor-offline
+Payload: {"active": false, "evid": "FJ-c2OY6r3lbgDuwRerdg8-R"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.562Z
+Topic: fuel-pricing/price-change/available-prices
+Payload: {"metadata":{"ev_id":""},"priceChanges":[{"priceChangeId":"00000000060030_111111","price":{"version":6,"price":"1.959","currency":"USD","effectiveDate":"2022-06-22T00:00:00Z","status":"ACTIVE","basePrice":true,"tareWeight":"0","dynamicAttributes":[{"type":"retail-price","attributes":[{"key":"UOM","value":"GLL"},{"key":"UNITS","value":"1"}]}],"priceId":{"itemCode":"00000000060030","enterpriseUnitId":"a5cf8fd278ad4a128de5716ba951bab0","priceCode":"111111"}},"itemCode":"00000000060030","itemName":"EFS Regular","currentPrice":"1.959","createdByUser":"","approvedByUser":"","status":"created","timeCreated":"2025-07-03T12:08:31.435685053Z","notifyFuturePriceChange":false,"needCashierApproval":true},{"priceChangeId":"00000000060020_111111","price":{"version":6,"price":"3.959","currency":"USD","effectiveDate":"2022-06-22T00:00:00Z","status":"ACTIVE","basePrice":true,"tareWeight":"0","dynamicAttributes":[{"type":"retail-price","attributes":[{"key":"UOM","value":"GLL"},{"key":"UNITS","value":"1"}]}],"priceId":{"itemCode":"00000000060020","enterpriseUnitId":"a5cf8fd278ad4a128de5716ba951bab0","priceCode":"111111"}},"itemCode":"00000000060020","itemName":"EFS Premium","currentPrice":"3.959","createdByUser":"","approvedByUser":"","status":"created","timeCreated":"2025-07-03T12:08:31.435689623Z","notifyFuturePriceChange":false,"needCashierApproval":true},{"priceChangeId":"00000000060040_1","price":{"version":5,"price":"2.99","currency":"USD","effectiveDate":"2024-11-04T00:13:41Z","status":"ACTIVE","basePrice":true,"itemPriceType":"SELF_SERVICE_CASH","tareWeight":"0","dynamicAttributes":[{"type":"String","attributes":[{"key":"batchId","value":"3001"}]},{"type":"retail-price","attributes":[{"key":"UOM","value":"GLL"},{"key":"UNITS","value":"1"}]}],"priceId":{"itemCode":"00000000060040","enterpriseUnitId":"a5cf8fd278ad4a128de5716ba951bab0","priceCode":"1"}},"itemCode":"00000000060040","itemName":"EFS Basic","currentPrice":"2.99","createdByUser":"","approvedByUser":"","status":"created","timeCreated":"2025-07-03T12:08:31.435694414Z","notifyFuturePriceChange":false,"needCashierApproval":true},{"priceChangeId":"00000000060040_111111","price":{"version":6,"price":"2.959","currency":"USD","effectiveDate":"2022-06-22T00:00:00Z","status":"ACTIVE","basePrice":true,"tareWeight":"0","dynamicAttributes":[{"type":"retail-price","attributes":[{"key":"UOM","value":"GLL"},{"key":"UNITS","value":"1"}]}],"priceId":{"itemCode":"00000000060040","enterpriseUnitId":"a5cf8fd278ad4a128de5716ba951bab0","priceCode":"111111"}},"itemCode":"00000000060040","itemName":"EFS Basic","currentPrice":"2.959","createdByUser":"","approvedByUser":"","status":"created","timeCreated":"2025-07-03T12:08:31.435699512Z","notifyFuturePriceChange":false,"needCashierApproval":true}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.562Z
+Topic: pump/controller-status
+Payload: {"nodeNumber": 100}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.563Z
+Topic: fuel-pricing/state/accepted-prices
+Payload: {"metadata":{"ev_id":"FIq92Il7gIeKJVtbewK-AW00"},"prices":{"70000817/":{"price":1959,"precision":3,"priceChangeId":"00000000060030_111111"},"70000818/":{"price":3959,"precision":3,"priceChangeId":"00000000060020_111111"},"70000820/":{"price":2959,"precision":3,"priceChangeId":"00000000060040_111111"},"70000820/SELF_SERVICE_CASH":{"price":2990,"precision":3,"priceChangeId":"00000000060040_1"}}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.563Z
+Topic: fuel-pricing/price-change/needs-approval
+Payload: {"priceItems":["00000000060030_111111","00000000060020_111111","00000000060040_1","00000000060040_111111"]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:44:58.563Z
+Topic: client/1/shutdown
+Payload: {"metadata":{"ev_id":"-Iq8veTuR5X65GSLp8JOM22D"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:02.003Z
+Topic: client/1/pump/1/reserve
+Payload: {"metadata":{"ev_id":"-J-cBMNi70ZGVKGFLlX7Th03","responseRequired":true},"reason":"PREPAY"}
+--------------------------------------------------
+
+
+Timestamp: 2025-07-03T20:45:02.064Z
+Topic: pump/1/events/reservation-status
+Payload: {"clientId": "1", "reason": "PREPAY", "reserved": true}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:02.066Z
+Topic: fuel/client/1/response
+Payload: {"cause": "-J-cBMNi70ZGVKGFLlX7Th03", "response": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:02.232Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/map-soft-keys
+Payload: {"count": 1, "metadata": {"ev_id": ""}, "softKeyCodes": {"keyCodes": "CΗ\rD\u0002�", "logicalCodes": "kȗ\r�[�"}, "softKeyData": [{"data": "", "number": 229118704, "text": ""}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:02.233Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/display-text
+Payload: {"displayType": 0, "metadata": {"ev_id": "FJ-cBOY6r3lbgDuwRerdg8-y"}, "promptFlags": "\u0000", "speed": 0, "text": "ASKLoyaltymoppostpay                                                                                         Pay inside"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:02.234Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cBOY6r3lbgDuwRerdg8-z"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:02.235Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cBOY6r3lbgDuwRerdg80-"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:04.751Z
+Topic: fc/alert/payment-processor-offline
+Payload: {"active": false, "evid": "FJ-cBnY6r3lbgDuwRerdg82Q"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.471Z
+Topic: client/1/pump/1/authorize-pump
+Payload: {"metadata":{"ev_id":"-J-cCgNi70ZGVKGFLlX7Th0n","responseRequired":true},"consoleAuth":true,"holdAuth":false,"fuelSale":{"authorizationAmount":500,"transactionType":1,"hoseMap":254,"posTransactionUid":"i1t48Ap1rkecvxOg98StZg","fuelSaleUid":"-J-cBrNi70ZGVKGFLlX7Th1e","authorizingStation":"","authorizingCashier":"manager","authorizingShift":0,"posTransactionId":0,"prepaidTenderAmounts":{"onePhaseTenderAmount":500,"twoPhaseTenderAmount":0}},"productLimits":[{"productID":70000820,"amount":500}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.553Z
+Topic: pump/1/events/pump-mode
+Payload: {"metadata": {"ev_id": "FJ-cChG8J6PlyS5lTM6wp21r"}, "mode": "OPEN"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.554Z
+Topic: pump/1/events/pump-status
+Payload: {"reason": "UNSPECIFIED", "state": "AUTHORIZED_ON_HOOK"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.558Z
+Topic: pump/1/events/current-sale
+Payload: {"sale": {"authorizationAmount": 500, "authorizedTime": "", "authorizingCashier": "manager", "authorizingShift": 1, "authorizingStation": "", "businessDate": "", "cardDefinitionId": 0, "cardNumber": "", "creditTransactionId": 0, "currentHose": 0, "currentTier": 0, "discountId": 0, "discountReason": 0, "fuelSaleUid": "-J-cBrNi70ZGVKGFLlX7Th1e", "hoseLimits": {"authorizationAmount": [500, 0, 0, 500, 0, 0, 0, 0], "maxVolume": [0, 0, 0, 0, 0, 0, 0, 0], "moneyLimitHoseMap": 65535, "quantityLimitHoseMap": 65526}, "hoseMap": -10, "loyaltyTransactionID": 0, "loyaltyTransactionId2": 0, "maxVolume": 200000, "merchTaxTotal": 0, "merchTotal": 0, "money": 0, "originalPrice": 0, "posTransactionId": 0, "posTransactionUid": "i1t48Ap1rkecvxOg98StZg", "prepaidTenderAmounts": {"onePhaseTenderAmount": 500, "twoPhaseTenderAmount": 0}, "price": 0, "pumpTransactionId": 16791057, "saleStarted": false, "serviceMode": 1, "tenderAmount": 0, "tenderType": 0, "tierMap": 1, "transactionType": 1, "transactionTypeModifiers": 0, "volume": 0}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.569Z
+Topic: fuel/client/1/response
+Payload: {"cause": "-J-cCgNi70ZGVKGFLlX7Th0n", "response": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.577Z
+Topic: client/1/pump/1/release
+Payload: {"metadata":{"ev_id":"-J-cChNi70ZGVKGFLlX7Th2F","responseRequired":true}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.598Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80d"}, "state": "DISABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.599Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-barcode-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80e"}, "state": "DISABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.609Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-contactless-chip-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80f"}, "state": "DISABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.610Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-chip-reader-status
+Payload: {"forceAbort": false, "metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80g"}, "state": "DISABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.626Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/map-soft-keys
+Payload: {"count": 0, "metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80h"}, "softKeyCodes": {"keyCodes": "P}S", "logicalCodes": "y?�"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.627Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/display-text
+Payload: {"displayType": 0, "metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80i"}, "promptFlags": "\u0000", "speed": 0, "text": "REMOVE NOZZLE SELECT       GRADE        "}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.633Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80j"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.634Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cChY6r3lbgDuwRerdg80k"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.652Z
+Topic: pump/1/events/reservation-status
+Payload: {"clientId": "", "reason": "NONE", "reserved": false}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.652Z
+Topic: fuel/client/1/response
+Payload: {"cause": "-J-cChNi70ZGVKGFLlX7Th2F", "response": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.659Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cCiY6r3lbgDuwRerdg8-K"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:10.661Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cCiY6r3lbgDuwRerdg8-L"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:13.691Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cDBY6r3lbgDuwRerdg82s"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:13.692Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cDBY6r3lbgDuwRerdg82t"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:15.164Z
+Topic: pump/1/events/hose-selected
+Payload: {"hose": 1}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:15.180Z
+Topic: pump/1/events/tier-selected
+Payload: {"tier": 1}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:15.182Z
+Topic: pump/1/events/price-selected
+Payload: {"originalPpu": 4999, "ppu": 4999}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:15.216Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cDQY6r3lbgDuwRerdg805"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:15.217Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cDQY6r3lbgDuwRerdg806"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:16.129Z
+Topic: pump/1/events/pump-mode
+Payload: {"metadata": {"ev_id": "FJ-cDZG8J6PlyS5lTM6wp206"}, "mode": "OPEN"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:16.131Z
+Topic: pump/1/events/pump-status
+Payload: {"reason": "UNSPECIFIED", "state": "FUELING"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:16.184Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/map-soft-keys
+Payload: {"count": 0, "metadata": {"ev_id": "FJ-cD_Y6r3lbgDuwRerdg80e"}, "softKeyCodes": {"keyCodes": "P}S", "logicalCodes": "y?�"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:16.185Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/display-text
+Payload: {"displayType": 0, "metadata": {"ev_id": "FJ-cD_Y6r3lbgDuwRerdg80f"}, "promptFlags": "\u0000", "speed": 0, "text": "REMOVE NOZZLE SELECT       GRADE        "}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:16.187Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cD_Y6r3lbgDuwRerdg80g"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:16.191Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cD_Y6r3lbgDuwRerdg80h"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:19.228Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/map-soft-keys
+Payload: {"count": 0, "metadata": {"ev_id": "FJ-cE2Y6r3lbgDuwRerdg8-3"}, "softKeyCodes": {"keyCodes": "P}S", "logicalCodes": "y?�"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:19.229Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/display-text
+Payload: {"displayType": 0, "metadata": {"ev_id": "FJ-cE2Y6r3lbgDuwRerdg8-4"}, "promptFlags": "\u0000", "speed": 0, "text": "REMOVE NOZZLE SELECT       GRADE        "}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:19.232Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cE2Y6r3lbgDuwRerdg8-5"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:19.233Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cE2Y6r3lbgDuwRerdg8-6"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:22.338Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/map-soft-keys
+Payload: {"count": 0, "metadata": {"ev_id": "FJ-cEYY6r3lbgDuwRerdg81L"}, "softKeyCodes": {"keyCodes": "P}S", "logicalCodes": "y?�"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:22.339Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/display-text
+Payload: {"displayType": 0, "metadata": {"ev_id": "FJ-cEYY6r3lbgDuwRerdg81M"}, "promptFlags": "\u0000", "speed": 0, "text": "REMOVE NOZZLE SELECT       GRADE        "}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:22.342Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cEYY6r3lbgDuwRerdg81N"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:22.345Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cEYY6r3lbgDuwRerdg81O"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:24.701Z
+Topic: pump/1/events/money-volume
+Payload: {"money": 31, "volume": 63}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:24.757Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-chip-reader-status
+Payload: {"forceAbort": false, "metadata": {"ev_id": "FJ-cEvY6r3lbgDuwRerdg80n"}, "state": "DISABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:24.766Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/enable-keypad
+Payload: {"metadata": {"ev_id": "FJ-cEvY6r3lbgDuwRerdg80o"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:24.770Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-card-reader-status
+Payload: {"metadata": {"ev_id": "FJ-cEvY6r3lbgDuwRerdg80p"}, "retries": 1, "state": "ENABLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:25.105Z
+Topic: pump/1/events/money-volume
+Payload: {"money": 63, "volume": 127}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:25.512Z
+Topic: pump/1/events/money-volume
+Payload: {"money": 105, "volume": 211}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:25.922Z
+Topic: pump/1/events/money-volume
+Payload: {"money": 126, "volume": 253}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.297Z
+Topic: pump/1/events/hose-selected
+Payload: {"hose": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.305Z
+Topic: pump/1/events/tier-selected
+Payload: {"tier": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.307Z
+Topic: pump/1/events/price-selected
+Payload: {"originalPpu": 0, "ppu": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.347Z
+Topic: pump/1/events/pump-mode
+Payload: {"metadata": {"ev_id": "FJ-cFAG8J6PlyS5lTM6wp22T"}, "mode": "OPEN"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.350Z
+Topic: pump/1/events/pump-status
+Payload: {"reason": "UNSPECIFIED", "state": "IDLE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.363Z
+Topic: pump/1/events/pump-totals
+Payload: {"totals": [{"hose": 0, "money": 986, "tier": 0, "volume": 1970}, {"hose": 0, "money": 0, "tier": 1, "volume": 0}, {"hose": 0, "money": 0, "tier": 2, "volume": 0}, {"hose": 0, "money": 0, "tier": 3, "volume": 0}, {"hose": 0, "money": 0, "tier": 4, "volume": 0}, {"hose": 1, "money": 1090, "tier": 0, "volume": 3630}, {"hose": 1, "money": 0, "tier": 1, "volume": 0}, {"hose": 1, "money": 0, "tier": 2, "volume": 0}, {"hose": 1, "money": 0, "tier": 3, "volume": 0}, {"hose": 1, "money": 0, "tier": 4, "volume": 0}, {"hose": 2, "money": 0, "tier": 0, "volume": 0}, {"hose": 2, "money": 0, "tier": 1, "volume": 0}, {"hose": 2, "money": 0, "tier": 2, "volume": 0}, {"hose": 2, "money": 0, "tier": 3, "volume": 0}, {"hose": 2, "money": 0, "tier": 4, "volume": 0}, {"hose": 3, "money": 0, "tier": 0, "volume": 0}, {"hose": 3, "money": 0, "tier": 1, "volume": 0}, {"hose": 3, "money": 0, "tier": 2, "volume": 0}, {"hose": 3, "money": 0, "tier": 3, "volume": 0}, {"hose": 3, "money": 0, "tier": 4, "volume": 0}, {"hose": 4, "money": 0, "tier": 0, "volume": 0}, {"hose": 4, "money": 0, "tier": 1, "volume": 0}, {"hose": 4, "money": 0, "tier": 2, "volume": 0}, {"hose": 4, "money": 0, "tier": 3, "volume": 0}, {"hose": 4, "money": 0, "tier": 4, "volume": 0}, {"hose": 5, "money": 0, "tier": 0, "volume": 0}, {"hose": 5, "money": 0, "tier": 1, "volume": 0}, {"hose": 5, "money": 0, "tier": 2, "volume": 0}, {"hose": 5, "money": 0, "tier": 3, "volume": 0}, {"hose": 5, "money": 0, "tier": 4, "volume": 0}, {"hose": 6, "money": 0, "tier": 0, "volume": 0}, {"hose": 6, "money": 0, "tier": 1, "volume": 0}, {"hose": 6, "money": 0, "tier": 2, "volume": 0}, {"hose": 6, "money": 0, "tier": 3, "volume": 0}, {"hose": 6, "money": 0, "tier": 4, "volume": 0}, {"hose": 7, "money": 0, "tier": 0, "volume": 0}, {"hose": 7, "money": 0, "tier": 1, "volume": 0}, {"hose": 7, "money": 0, "tier": 2, "volume": 0}, {"hose": 7, "money": 0, "tier": 3, "volume": 0}, {"hose": 7, "money": 0, "tier": 4, "volume": 0}]}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.375Z
+Topic: pump/1/events/feedstock-totals
+Payload: {"feedstockVolumeHigh": 0, "feedstockVolumeLow": 0, "supportedFeedstocks": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.393Z
+Topic: pump/1/events/current-sale
+Payload: {"sale": {"authorizationAmount": 0, "authorizedTime": "", "authorizingCashier": "", "authorizingShift": 1, "authorizingStation": "", "businessDate": "", "cardDefinitionId": 0, "cardNumber": "", "creditTransactionId": 0, "currentHose": 0, "currentTier": 0, "discountId": 0, "discountReason": 0, "fuelSaleUid": "", "hoseLimits": {"authorizationAmount": [0, 0, 0, 0, 0, 0, 0, 0], "maxVolume": [0, 0, 0, 0, 0, 0, 0, 0], "moneyLimitHoseMap": 0, "quantityLimitHoseMap": 0}, "hoseMap": 0, "loyaltyTransactionID": 0, "loyaltyTransactionId2": 0, "maxVolume": 0, "merchTaxTotal": 0, "merchTotal": 0, "money": 0, "originalPrice": 0, "posTransactionId": 0, "posTransactionUid": "", "price": 0, "pumpTransactionId": -1, "saleStarted": false, "serviceMode": 1, "tenderAmount": 0, "tenderType": 0, "tierMap": 0, "transactionType": 4, "transactionTypeModifiers": 0, "volume": 0}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.394Z
+Topic: client/NcrFuel.100.Icarus.exe.PosFuel/pump/1/reserve
+Payload: {"metadata": {"ev_id": "FJ-cFAY6r3lbgDuwRerdg8-D", "responseRequired": true}, "reason": "NONE"}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.395Z
+Topic: pump/1/events/completed-sale/16791057
+Payload: {"completion": {"prepayCompletionType": "CASHIER_COMPLETE", "pumpNumber": 1, "reason": 0, "recordNumber": 16791057, "time": "2025-07-03T15:50:37.952"}, "flowRateData": {"endTime": "2025-07-03T15:50:37.941", "flowRate": 0, "flowRateStatus": "VOLUME_TOO_SMALL", "fuelingEndTime": "2025-07-03T15:50:37.243", "fuelingStartTime": "2025-07-03T15:50:36.064", "startTime": "2025-07-03T15:50:27.700"}, "sale": {"authorizationAmount": 500, "authorizedTime": "", "authorizingCashier": "manager", "authorizingShift": 1, "authorizingStation": "", "businessDate": "", "cardDefinitionId": 0, "cardNumber": "", "creditTransactionId": 0, "currentHose": 1, "currentTier": 1, "discountId": 0, "discountReason": 0, "fuelSaleUid": "-J-cBrNi70ZGVKGFLlX7Th1e", "hoseLimits": {"authorizationAmount": [500, 0, 0, 500, 0, 0, 0, 0], "maxVolume": [0, 0, 0, 0, 0, 0, 0, 0], "moneyLimitHoseMap": 65535, "quantityLimitHoseMap": 65526}, "hoseMap": -10, "loyaltyTransactionID": 0, "loyaltyTransactionId2": 0, "maxVolume": 200000, "merchTaxTotal": 0, "merchTotal": 0, "money": 126, "originalPrice": 4999, "posTransactionId": 0, "posTransactionUid": "i1t48Ap1rkecvxOg98StZg", "prepaidTenderAmounts": {"onePhaseTenderAmount": 500, "twoPhaseTenderAmount": 0}, "price": 4999, "pumpTransactionId": 16791057, "saleStarted": false, "serviceMode": 1, "tenderAmount": 0, "tenderType": 0, "tierMap": 1, "transactionType": 1, "transactionTypeModifiers": 0, "volume": 252}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.397Z
+Topic: pump/1/events/sale-prices
+Payload: 
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.400Z
+Topic: pump/1/events/reservation-status
+Payload: {"clientId": "NcrFuel.100.Icarus.exe.PosFuel", "reason": "NONE", "reserved": true}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.403Z
+Topic: fuel/client/NcrFuel.100.Icarus.exe.PosFuel/response
+Payload: {"cause": "FJ-cFAY6r3lbgDuwRerdg8-D", "response": 0}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.412Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/set-sale-type
+Payload: {"metadata": {"ev_id": ""}, "saleType": 17}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.416Z
+Topic: icr/1/sale-type
+Payload: {"saleType": 17}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.445Z
+Topic: client/NcrFuel.100.Icarus.exe.PosFuel/pump/1/release
+Payload: {"metadata": {"ev_id": "FJ-cFAY6r3lbgDuwRerdg8-E"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.459Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/map-soft-keys
+Payload: {"count": 0, "metadata": {"ev_id": "FJ-cFAY6r3lbgDuwRerdg8-F"}, "softKeyCodes": {"keyCodes": "~��\t\u0005P}S", "logicalCodes": "y?�"}}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.459Z
+Topic: client/NcrFuel.100.Icarus.exe.PosIcr/icr/1/display-text
+Payload: {"displayType": 0, "metadata": {"ev_id": "FJ-cFAY6r3lbgDuwRerdg8-G"}, "promptFlags": "\u0000", "speed": 0, "text": "     GETCHANGE      "}
+--------------------------------------------------
+
+Timestamp: 2025-07-03T20:45:26.535Z
+Topic: pump/1/events/reservation-status
+Payload: {"clientId": "", "reason": "NONE", "reserved": false}
+--------------------------------------------------
+

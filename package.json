@@ -1,19 +1,13 @@
 {
-  "name": "fuelmqtt",
+  "name": "pump-arm-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple app to arm a fuel pump via MQTT.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg listenerMQTT.js --targets node18-win-x64 --output listenerMQTT.exe"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "mqtt": "^5.10.4"
-  },
-  "devDependencies": {
-    "pkg": "^5.8.1"
+    "express": "^4.18.2",
+    "mqtt": "^4.3.7"
   }
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pump Control</title>
+    <style>
+        body { 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            font-family: sans-serif; 
+            margin: 0; 
+        }
+        #armButton { 
+            padding: 20px 40px; 
+            font-size: 24px; 
+        }
+        #status { 
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <button id="armButton">Arm Pump</button>
+    <p id="status"></p>
+
+    <script>
+        const armButton = document.getElementById('armButton');
+        const status = document.getElementById('status');
+
+        armButton.addEventListener('click', async () => {
+            status.textContent = 'Arming...';
+            try {
+                const response = await fetch('/api/arm-pump', { method: 'POST' });
+                const result = await response.json();
+                if (response.ok) {
+                    status.textContent = 'Pump armed successfully!';
+                } else {
+                    status.textContent = `Error: ${result.message}`;
+                }
+            } catch (error) {
+                status.textContent = 'Failed to connect to the server.';
+            }
+        });
+    </script>
+</body>
+</html>
